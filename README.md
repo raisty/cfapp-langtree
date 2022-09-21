@@ -1,2 +1,3 @@
-# cfapp-langtree
-Redirects Cloudflare to language by browser
+# Cloudflare App - LangTree
+
+Redirects Cloudflare to language path by browser recommendation.

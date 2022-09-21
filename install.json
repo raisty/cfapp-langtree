@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/install",
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./app.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "languages": {
+        "title": "Supported languages",
+        "description": "Languages, which is your App supporting. (Separated by comma [,])",
+        "type": "string",
+        "default": "en",
+        "placeholder": "en,sk,ru,en-GB"
+      },
+      "format": {
+        "title": "Formatting the redirect",
+        "description": "Formatting the redirect from ISO 639-1. Use $a for `en` (and $B for `GB` if needed). (Lowercase and uppercase will be respected as: `a`, `A`, `b`, `B`)",
+        "type": "string",
+        "default": "/$a",
+        "placeholder": "/$a-$B"
+      }
+    }
+  }
+}
